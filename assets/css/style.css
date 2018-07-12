@@ -1,0 +1,27 @@
+.pre-main {
+	height: 100vh;
+}
+
+.prev-next {
+	position: relative;
+}
+
+.previous {
+	position: absolute;
+	left: 0;
+}
+
+.next {
+	position: absolute;
+	right: 0;
+}
+
+.div-pagination {
+	display: inline-block;
+	/*margin: auto;*/
+	/*text-align: center;*/
+}
+
+.div-right {
+	text-align: center;
+}
