@@ -1,0 +1,18 @@
+.pre-main {
+	height: 100vh;
+}
+
+.div-pagination {
+	display: inline-block;
+	/*margin: auto;*/
+	/*text-align: center;*/
+}
+
+.div-right {
+	text-align: center;
+}
+
+footer {
+	height: 100px;
+	background-color: lightblue;
+}

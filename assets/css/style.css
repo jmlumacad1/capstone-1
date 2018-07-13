@@ -1,27 +1,11 @@
-.pre-main {
-	height: 100vh;
+body {
 }
 
-.prev-next {
-	position: relative;
+.navbar {
+	
 }
 
-.previous {
-	position: absolute;
-	left: 0;
-}
-
-.next {
-	position: absolute;
-	right: 0;
-}
-
-.div-pagination {
-	display: inline-block;
-	/*margin: auto;*/
-	/*text-align: center;*/
-}
-
-.div-right {
+.jumbotron {
 	text-align: center;
+	padding-top: 120px;
 }
