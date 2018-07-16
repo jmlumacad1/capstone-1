@@ -1,15 +1,26 @@
-body {
+html {
 	overflow: hidden;
 }
 
-.main {
+body {
 	background-image: url(../images/chess-bg.jpg);
+	/* background-repeat: no-repeat; */
 	color: #FFFFFF;
 	background-size: cover;
+	/* overflow: hidden; */
+	overflow-x: hidden;
+	
+	width: 100vw;
+	height: 100vh;
+}
+
+.main {
 }
 
 .jumbotron {
 	text-align: center;
 	padding-top: 120px; /*default padding-top + height of navbar*/
-	height: 100vh;
+
+	/* sets the default gray color of jumbotron to transparent */
+	background-color: transparent;
 }
