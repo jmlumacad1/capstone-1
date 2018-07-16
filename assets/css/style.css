@@ -1,11 +1,15 @@
 body {
+	overflow: hidden;
 }
 
-.navbar {
-	
+.main {
+	background-image: url(../images/chess-bg.jpg);
+	color: #FFFFFF;
+	background-size: cover;
 }
 
 .jumbotron {
 	text-align: center;
-	padding-top: 120px;
+	padding-top: 120px; /*default padding-top + height of navbar*/
+	height: 100vh;
 }

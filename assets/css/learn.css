@@ -1,5 +1,13 @@
-.pre-main {
+/*.pre-main {
 	height: 100vh;
+}*/
+
+.main {
+	padding-top: 71px;
+}
+
+.list-group {
+	margin-top: 15px;
 }
 
 .div-pagination {
@@ -10,6 +18,10 @@
 
 .div-right {
 	text-align: center;
+}
+
+.div-right p {
+	text-align: left;
 }
 
 footer {
