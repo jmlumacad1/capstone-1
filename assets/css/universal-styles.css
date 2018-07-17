@@ -2,6 +2,6 @@ footer {
     height: auto !important;
 }
 
-footer p {
+footer * {
     margin: 0;
 }

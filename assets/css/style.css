@@ -3,6 +3,7 @@ html {
 }
 
 body {
+	background-color: brown;
 	background-image: url(../images/chess-bg.jpg);
 	/* background-repeat: no-repeat; */
 	color: #FFFFFF;
