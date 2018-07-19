@@ -66,6 +66,10 @@ footer small {
 		padding-top: 56px; /*height of navbar*/
 	}
 
+	.learn ul.subgroup {
+		padding-left: 20px;
+	}
+
 	.learn .list-group {
 		margin-top: 15px;
 	}
