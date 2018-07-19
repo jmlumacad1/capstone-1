@@ -1,3 +1,7 @@
+body {
+	padding-bottom: 60px;
+}
+
 footer {
     height: auto !important;
 }
@@ -5,3 +9,102 @@ footer {
 footer * {
     margin: 0;
 }
+
+footer small {
+	line-height: initial;
+	color: #000000;
+}
+
+
+/*index.html*/
+
+
+	.index {
+		overflow: hidden;
+	}
+
+	.index body {
+		background-color: #434142;
+		background-image: url(../images/chess-bg.jpg);
+		/* background-repeat: no-repeat; */
+		color: #FFFFFF;
+		background-size: cover;
+		/* overflow: hidden; */
+		overflow-x: hidden;
+		
+		width: 100vw;
+		height: 100vh;
+	}
+
+	/* .main {
+
+	} */
+
+	.index .jumbotron {
+		text-align: center;
+		padding-top: 120px; /*default padding-top of jumbotron + height of navbar*/
+
+		/* sets the default gray color of jumbotron to transparent */
+		background-color: transparent;
+	}
+
+	@media only screen and (max-width: 440px) {
+		.index h1 {
+			font-size: 12vw !important;
+		}
+	}
+
+
+/*learn.html*/
+
+
+	/*.pre-main {
+		height: 100vh;
+	}*/
+
+	.learn .main {
+		padding-top: 56px; /*height of navbar*/
+	}
+
+	.learn .list-group {
+		margin-top: 15px;
+	}
+
+	.learn .div-pagination {
+		display: inline-block;
+		/*margin: auto;*/
+		/*text-align: center;*/
+	}
+
+	.learn .div-right {
+		text-align: center;
+	}
+
+	.learn .div-right p {
+		text-align: left;
+	}
+
+	.learn footer {
+		height: 100px;
+		background-color: lightblue;
+	}
+
+
+/*forum.html*/
+
+
+	.forum body {
+		padding-top: 76px;
+	}
+
+	.forum .div-right ul {
+		font-size: 80%;
+	}
+
+
+/*contact.html*/
+
+
+	.contact form {
+		max-width: 768px;
+	}
