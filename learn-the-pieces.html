@@ -57,31 +57,38 @@
 
 	<main class="main container-fluid">
 
+		<hr>
+
 		<div class="row">
 
 			<div class="div-left col-12 col-sm-12 col-lg-4">
 
-				<nav class="nav-tutorial">
-					<ul>
-						<li> Introduction </li>
-						<li> What is chess? </li>
-						<li> The chessboard </li>
-						<li> The pieces </li>
-							<ul>
-								<li> King </li>
-								<li> Queen </li>
-								<li> Rook </li>
-								<li> Bishop </li>
-								<li> Knight </li>
-								<li> Pawn </li>
-							</ul>
-						<li> section </li>
-					</ul>
+				<nav id="navbar-outline" class="navbar navbar-light bg-light">
+
+					<!-- <h2> Outline </h2> -->
+					<nav class="nav nav-pills flex-column">
+						<a class="nav-link" href="learn.html"> Introduction </a>
+						<a class="nav-link" href="learn-what-is-chess.html"> What is chess? </a>
+						<a class="nav-link" href="learn-the-chessboard.html"> The chessboard </a>
+						<a class="nav-link" href="learn-the-pieces.html"> The pieces </a>
+						<nav class="nav nav-pills flex-column subgroup">
+							<a class="nav-link" href="learn-the-pieces.html#king"> King </a>
+							<a class="nav-link" href="learn-the-pieces.html#queen"> Queen </a>
+							<a class="nav-link" href="learn-the-pieces.html#rook"> Rook </a>
+							<a class="nav-link" href="learn-the-pieces.html#bishop"> Bishop </a>
+							<a class="nav-link" href="learn-the-pieces.html#knight"> Knight </a>
+							<a class="nav-link" href="learn-the-pieces.html#pawn"> Pawn </a>
+						</nav>
+						<a class="nav-link" href="learn-how-to-play.html"> How to play </a>
+						<a class="nav-link" href="learn-whats-next.html"> What's next? </a>
+					</nav>
 				</nav>
+
+				<hr>
 				
 			</div> <!-- end div-left -->
 
-			<div class="div-right col-12 col-sm-12 col-lg-8">
+			<div class="div-right col-12 col-sm-12 col-lg-8" data-spy="scroll" data-target="#navbar-outline" data-offset="0">
 				<h2 class="bg-warning"> The pieces </h2>
 				
 				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
