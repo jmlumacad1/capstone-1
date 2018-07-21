@@ -66,6 +66,18 @@ footer small {
 		padding-top: 56px; /*height of navbar*/
 	}
 
+	/* .learn #nav-outline {
+		position: fixed;
+	} */
+
+	.learn .invisible-block::before {
+		display: block;
+		height: 56px;
+		margin-top: -56px;
+		visibility: hidden;
+		content: "";
+	}
+
 	.learn ul.subgroup {
 		padding-left: 20px;
 	}
