@@ -16,12 +16,21 @@
 	color: #FFFFFF !important;
 } */
 
+/* .navbar {
+	background-color: brown !important;
+} */
+
+.navbar .fas {
+	position: relative;
+	bottom: 1px;
+}
+
 body {
 	padding-bottom: 60px;
 	/* background-color: #031926; */
 	/* color: #FFFFFF; */
 	/* color: #468189; */
-	/* color: #F4E9CD; */
+	background-color: #F4E9CD;
 }
 
 footer {
