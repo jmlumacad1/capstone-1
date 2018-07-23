@@ -46,6 +46,37 @@ footer small {
 	color: #000000;
 }
 
+.comment > * {
+	float: left;
+}
+
+.div-comment-left {
+	width: 7%;
+}
+
+.div-comment-right {
+	width: 90%;
+}
+
+.div-comment-right > p {
+	margin: 0;
+}
+
+.clear:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+@media only screen and (min-width: 768px) {
+	.div-left {
+		position: relative;
+	}
+
+	#nav-outline {
+		position: fixed;
+	}
+}
 
 /*index.html*/
 
@@ -133,6 +164,10 @@ footer small {
 	}
 
 	.learn .div-right p {
+		text-align: left;
+	}
+
+	.learn .comment {
 		text-align: left;
 	}
 
